@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         // First customer and order (USA)
-        Address address1 = new Address("123 Apple St", "Pasco", "WA", "USA");
+        Address address1 = new Address("123 Apple St", "Toronto", "Canada", "Canada");
         Customer customer1 = new Customer("Brenna Nery", address1);
 
         Order order1 = new Order(customer1);
